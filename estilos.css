@@ -1,0 +1,64 @@
+a
+{
+	color:white;
+}
+
+body
+{
+	background: #334477;
+	font-family: Arial;
+	font-size: 16px;
+}
+
+header
+{
+	background: white;
+	overflow: hidden;
+}
+
+header h1
+{
+	color: Black;
+	font-size: 1.3em;
+	font-weight: normal;
+}
+
+header figure 
+{
+	float: left;
+	margin-right: 2em;
+}
+
+header figure img
+{
+	margin-left: 0em;
+	width: 100px;
+}
+
+nav
+{
+	background: #334477;
+	overflow: hidden;
+}
+
+nav ul
+{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav ul li
+{
+	display: inline-block;
+	margin: 0 .5em 0 0;
+}
+
+nav ul li a
+{
+	color: white;
+	display: block;
+	padding: .5em;
+	text-decoration: none;
+
+}
