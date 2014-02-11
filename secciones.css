@@ -1,0 +1,130 @@
+a
+{
+	color:white;
+}
+
+body
+{
+	background: #334477;
+	font-family: Arial;
+	font-size: 16px;
+}
+
+footer
+{
+	background: #334477;
+	color:rgba(255,255,255,0.5);
+	border-top: .1em solid white;
+	padding: 1em;
+	text-align: center;
+}
+
+header
+{
+	background: white;
+	overflow: hidden;
+}
+
+header h1
+{
+	color: Black;
+	font-size: 1.3em;
+	font-weight: normal;
+}
+
+header figure 
+{
+	float: left;
+	margin-right: 2em;
+}
+
+header figure img
+{
+	margin-left: 0em;
+	width: 100px;
+}
+
+nav
+{
+	background: #334477;
+	overflow: hidden;
+	text-align: center;
+}
+
+nav ul
+{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav ul li
+{
+	display: inline-block;
+	margin: 0 .7em 0 0;
+}
+
+nav ul li a
+{
+	color: white;
+	display: block;
+	padding: .5em;
+	text-decoration: none;
+}
+
+#contenido
+{
+	margin: 1em;
+}
+
+#contenido .item
+{
+	background: white;
+	border-bottom: 2px solid Black; 
+	min-height: 126px;
+}
+
+#contenido .item .imagen_item
+{
+	text-align: center;
+	margin: 1em .5em 1em .5em;
+}
+
+#contenido .item .imagen_item img
+{
+	margin: 0 8px 0 0;
+	width: 160px;
+}
+
+#contenido .item .subtitulos_item
+{
+	/*margin: 0 0 0 10em;*/
+	text-align: center;
+}
+
+#contenido .item .sublistas_item
+{
+	/*margin: 0 0 0 10em;*/
+	text-align: center;
+}
+
+#contenido .item .titulo_item
+{
+	font-size: 1.2em;
+	font-style: italic;
+	text-align: center;
+	padding: .5em 1em 0 0;
+}
+
+#contenido .item .contenido_item 
+{
+	margin: -10px 0 -12px 0;
+	padding-right: 2em;
+	text-align: left;
+}
+
+#contenido .item .titulo_item a
+{
+	color: Black;
+	text-decoration: none;
+}
